@@ -4,7 +4,7 @@
   "description": "Next generation Whatsapp bot",
   "main": "main.js",
   "scripts": {
-    "start": "pm2 start main.js --deep-monitoring --attach --name PATRON-MD"
+    "start": "node main.js"
   },
   "author": "PATRON",
   "engines": {
@@ -17,7 +17,7 @@
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "api-dylux": "^1.8.5",
     "axios": "^1.10.0",
-    "quick-lru": "^7.0.0",
+    "quick-lru": "5.1.1",
     "awesome-phonenumber": "^5.10.0",
     "btch-downloader": "^4.0.22",
     "chalk": "4.1.0",
