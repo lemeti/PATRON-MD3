@@ -6,7 +6,7 @@ require('dotenv').config();
 //================= { SETTINGS } =================\\
 global.prefix = (process.env.PREFIX || ".").trim().split(/\s+/);
 // your desired prefix symbol only
-global.owner = process.env.OWNER_NUMBER || "2348133729715"; // owner number , for multiple number
+global.owner = process.env.OWNER_NUMBER || "237691991650"; // owner number , for multiple number
 global.sudo = process.env.SUDO  || "";
 global.ownername = process.env.OWNER_NAME || "Patron TechX"; //set bot owner name here 
 global.botname = process.env.BOT_NAME || "ᴘᴀᴛʀᴏɴ-ᴍᴅ"
